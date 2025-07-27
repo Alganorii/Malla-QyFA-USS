@@ -73,7 +73,21 @@ const ramos = [
   { nombre: "Farmacia Clínica y Atención Farmacéutica II", semestre: 8, prereq: ["Farmacia Clínica y Atención Farmacéutica I"] },
   { nombre: "Biofarmacia", semestre: 8, prereq: ["Control y Aseguramiento de la Calidad Farmacéutica"] },
   { nombre: "Práctica II: Farmacia Comunitaria", semestre: 8, prereq: ["Farmacia Clínica y Atención Farmacéutica I"] },
-  { nombre: "Hito Evaluativo Integrativo Interprofesional", semestre: 8, prereq: ["Nivel 6 y 7 aprobados"] },
+  { nombre: "Hito Evaluativo Integrativo Interprofesional", semestre: 8, prereq: [
+    "Tópicos Avanzados de Química Orgánica",
+    "Técnicas Instrumentales de Análisis Químico",
+    "Farmacología General",
+    "Biotecnología Farmacéutica",
+    "Microbiología",
+    "Salud Pública",
+    "Formulación y Tecnología Farmacéutica I",
+    "Farmacología del Sistema Nervioso Central",
+    "Toxicología General",
+    "Microbiología Clínica y Parasitología",
+    "Legislación Farmacéutica",
+    "Formulación y Tecnología Farmacéutica II"
+  ]
+}
   { nombre: "Farmacia Asistencial", semestre: 8 },
 
   // 🌟 SEMESTRE 9
