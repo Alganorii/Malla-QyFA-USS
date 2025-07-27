@@ -29,7 +29,20 @@ const ramos = [
   { nombre: "Bioquímica General", semestre: 4, prereq: ["Química Orgánica"] },
   { nombre: "Fisiopatología", semestre: 4, prereq: ["Fisiología Integrada"] },
   { nombre: "Epidemiología", semestre: 4, prereq: ["Salud Poblacional"] },
-  { nombre: "Hito Evaluativo Integrativo", semestre: 4, prereq: ["Nivel 2 y 3 aprobados"] },
+  { nombre: "Hito Evaluativo Integrativo", semestre: 4, prereq: [
+  "Química General II",
+  "Cálculo Diferencial",
+  "Física",
+  "Bioestadística",
+  "Fundamentos del Quehacer Farmacéutico",
+  "Ética",
+  "Química Analítica Cualitativa",
+  "Química Orgánica",
+  "Fisicoquímica",
+  "Fisiología Integrada",
+  "Salud Poblacional",
+  "Gestión Personal y Habilidades para la Vida"
+] },
 
   // 🌟 SEMESTRE 5
   { nombre: "Farmacología I", semestre: 5, prereq: ["Fisiopatología"] },
