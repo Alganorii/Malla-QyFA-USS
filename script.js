@@ -86,8 +86,7 @@ const ramos = [
     "Microbiología Clínica y Parasitología",
     "Legislación Farmacéutica",
     "Formulación y Tecnología Farmacéutica II"
-  ]
-},
+] },
   { nombre: "Farmacia Asistencial", semestre: 8 },
 
   // 🌟 SEMESTRE 9
