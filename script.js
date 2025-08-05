@@ -72,7 +72,7 @@ const ramos = [
   { nombre: "Toxicología", semestre: 8, prereq: ["Farmacología II"] },
   { nombre: "Farmacia Clínica y Atención Farmacéutica II", semestre: 8, prereq: ["Farmacia Clínica y Atención Farmacéutica I"] },
   { nombre: "Biofarmacia", semestre: 8, prereq: ["Control y Aseguramiento de la Calidad Farmacéutica"] },
-  { nombre: "Práctica II: Farmacia Comunitaria", semestre: 8, prereq: ["Farmacia Clínica y Atención Farmacéutica I"] },
+  { nombre: "Practica II: Farmacia Comunitaria", semestre: 8, prereq: ["Legislación Farmacéutica I"] },
   { nombre: "Hito Evaluativo Integrativo Interprofesional", semestre: 8, prereq: [
     "Tópicos Avanzados de Química Orgánica",
     "Técnicas Instrumentales de Análisis Químico",
@@ -93,12 +93,191 @@ const ramos = [
   { nombre: "Gestión y Marketing Farmacéutico", semestre: 9 },
   { nombre: "Farmacovigilancia y Tecnovigilancia", semestre: 9 },
   { nombre: "Electivo III: Formación Integral", semestre: 9 },
-  { nombre: "Electivo I", semestre: 9, prereq: ["Nivel 7 aprobado"] },
-  { nombre: "Electivo II", semestre: 9, prereq: ["Nivel 7 aprobado"] },
-  { nombre: "Electivo III", semestre: 9, prereq: ["Nivel 7 aprobado"] },
+  { nombre: "Electivo I", semestre: 9, prereq: [
+    "Farmacia Clínica y Atención Farmacéutica I",
+    "Metodología de la Investigación",
+    "Legislación Farmacéutica",
+    "Farmacognosia y Fitoterapia",
+    "Electivo II: Formación e Identidad",
+    "Control y Aseguramiento de la Calidad Farmacéutica",
+    "Toxicología",
+    "Farmacia Clínica y Atención Farmacéutica II",
+    "Biofarmacia",
+    "Practica II: Farmacia Comunitaria",
+    "Farmacia Asistencial",
+  ] },
+  { nombre: "Electivo II", semestre: 9, prereq: [  
+    "Farmacia Clínica y Atención Farmacéutica I",
+    "Metodología de la Investigación",
+    "Legislación Farmacéutica",
+    "Farmacognosia y Fitoterapia",
+    "Electivo II: Formación e Identidad",
+    "Control y Aseguramiento de la Calidad Farmacéutica",
+    "Toxicología",
+    "Farmacia Clínica y Atención Farmacéutica II",
+    "Biofarmacia",
+    "Practica II: Farmacia Comunitaria",
+    "Farmacia Asistencial",] },
+  { nombre: "Electivo III", semestre: 9, prereq: [ 
+    "Farmacia Clínica y Atención Farmacéutica I",
+    "Metodología de la Investigación",
+    "Legislación Farmacéutica",
+    "Farmacognosia y Fitoterapia",
+    "Electivo II: Formación e Identidad",
+    "Control y Aseguramiento de la Calidad Farmacéutica",
+    "Toxicología",
+    "Farmacia Clínica y Atención Farmacéutica II",
+    "Biofarmacia",
+    "Practica II: Farmacia Comunitaria",
+    "Farmacia Asistencial",] },
 
   // 🌟 SEMESTRE 10
-  { nombre: "Internado Profesional", semestre: 10, prereq: ["Nivel 8 y 9 aprobados"] }
+  { nombre: "Internado Profesional", semestre: 10, prereq: [Tú dijiste:
+{ nombre: "Toxicología", semestre: 8, prereq: ["Farmacología II"] },
+  { nombre: "Farmacia Clínica y Atención Farmacéutica II", semestre: 8, prereq: ["Farmacia Clínica y Atención Farmacéutica I"] },
+  { nombre: "Biofarmacia", semestre: 8, prereq: ["Control y Aseguramiento de la Calidad Farmacéutica"] },
+  { nombre: "Practica II: Farmacia Comunitaria", semestre: 8, prereq: ["Legislación Farmacéutica I"] },
+  { nombre: "Hito Evaluativo Integrativo Interprofesional", semestre: 8, prereq: [
+    "Tópicos Avanzados de Química Orgánica",
+    "Técnicas Instrumentales de Análisis Químico",
+    "Farmacología General",
+    "Biotecnología Farmacéutica",
+    "Microbiología",
+    "Salud Pública",
+    "Formulación y Tecnología Farmacéutica I",
+    "Farmacología del Sistema Nervioso Central",
+    "Toxicología General",
+    "Microbiología Clínica y Parasitología",
+    "Legislación Farmacéutica",
+    "Formulación y Tecnología Farmacéutica II"
+] },
+  { nombre: "Farmacia Asistencial", semestre: 8 },
+
+  // 🌟 SEMESTRE 9
+  { nombre: "Gestión y Marketing Farmacéutico", semestre: 9 },
+  { nombre: "Farmacovigilancia y Tecnovigilancia", semestre: 9 },
+  { nombre: "Electivo III: Formación Integral", semestre: 9 },
+  { nombre: "Electivo I", semestre: 9, prereq: [
+    "Farmacia Clínica y Atención Farmacéutica I",
+    "Metodología de la Investigación",
+    "Legislación Farmacéutica",
+    "Farmacognosia y Fitoterapia",
+    "Electivo II: Formación e Identidad",
+    "Control y Aseguramiento de la Calidad Farmacéutica",
+    "Toxicología",
+    "Farmacia Clínica y Atención Farmacéutica II",
+    "Biofarmacia",
+    "Practica II: Farmacia Comunitaria",
+    "Farmacia Asistencial",
+  ] },
+  { nombre: "Electivo II", semestre: 9, prereq: [  
+    "Farmacia Clínica y Atención Farmacéutica I",
+    "Metodología de la Investigación",
+    "Legislación Farmacéutica",
+    "Farmacognosia y Fitoterapia",
+    "Electivo II: Formación e Identidad",
+    "Control y Aseguramiento de la Calidad Farmacéutica",
+    "Toxicología",
+    "Farmacia Clínica y Atención Farmacéutica II",
+    "Biofarmacia",
+    "Practica II: Farmacia Comunitaria",
+    "Farmacia Asistencial",] },nombre: "Electivo III", semestre: 9  { nombre: "Internado Profesional", semestre: 10, prereq: ["Nivel 8 y 9 aprobados"] }
+];   puedes poner en la parte de  semestre 10 en donde dice prereq los nombres de el semestre 8 y en 9 en  codigo porfis?
+ 
+
+
+ChatGPT Plus
+Claro, Alga 💜✨ Aquí te dejo el código corregido, con los prerrequisitos del "Internado Profesional" detallados uno por uno (todos los ramos de 8º y 9º semestre), en lugar de solo decir "Nivel 8 y 9 aprobados".
+
+✅ Código corregido:
+js
+Copiar
+Editar
+const ramos = [
+  // 🌟 SEMESTRE 8
+  { nombre: "Toxicología", semestre: 8, prereq: ["Farmacología II"] },
+  { nombre: "Farmacia Clínica y Atención Farmacéutica II", semestre: 8, prereq: ["Farmacia Clínica y Atención Farmacéutica I"] },
+  { nombre: "Biofarmacia", semestre: 8, prereq: ["Control y Aseguramiento de la Calidad Farmacéutica"] },
+  { nombre: "Practica II: Farmacia Comunitaria", semestre: 8, prereq: ["Legislación Farmacéutica I"] },
+  {
+    nombre: "Hito Evaluativo Integrativo Interprofesional",
+    semestre: 8,
+    prereq: [
+      "Tópicos Avanzados de Química Orgánica",
+      "Técnicas Instrumentales de Análisis Químico",
+      "Farmacología General",
+      "Biotecnología Farmacéutica",
+      "Microbiología",
+      "Salud Pública",
+      "Formulación y Tecnología Farmacéutica I",
+      "Farmacología del Sistema Nervioso Central",
+      "Toxicología General",
+      "Microbiología Clínica y Parasitología",
+      "Legislación Farmacéutica",
+      "Formulación y Tecnología Farmacéutica II"
+    ]
+  },
+  { nombre: "Farmacia Asistencial", semestre: 8 },
+
+  // 🌟 SEMESTRE 9
+  { nombre: "Gestión y Marketing Farmacéutico", semestre: 9 },
+  { nombre: "Farmacovigilancia y Tecnovigilancia", semestre: 9 },
+  { nombre: "Electivo III: Formación Integral", semestre: 9 },
+  {
+    nombre: "Electivo I",
+    semestre: 9,
+    prereq: [
+      "Farmacia Clínica y Atención Farmacéutica I",
+      "Metodología de la Investigación",
+      "Legislación Farmacéutica",
+      "Farmacognosia y Fitoterapia",
+      "Electivo II: Formación e Identidad",
+      "Control y Aseguramiento de la Calidad Farmacéutica",
+      "Toxicología",
+      "Farmacia Clínica y Atención Farmacéutica II",
+      "Biofarmacia",
+      "Practica II: Farmacia Comunitaria",
+      "Farmacia Asistencial",
+    ]
+  },
+  {
+    nombre: "Electivo II",
+    semestre: 9,
+    prereq: [
+      "Farmacia Clínica y Atención Farmacéutica I",
+      "Metodología de la Investigación",
+      "Legislación Farmacéutica",
+      "Farmacognosia y Fitoterapia",
+      "Electivo II: Formación e Identidad",
+      "Control y Aseguramiento de la Calidad Farmacéutica",
+      "Toxicología",
+      "Farmacia Clínica y Atención Farmacéutica II",
+      "Biofarmacia",
+      "Practica II: Farmacia Comunitaria",
+      "Farmacia Asistencial",
+    ]
+  },
+  { nombre: "Electivo III", semestre: 9 },
+
+  // 🌟 SEMESTRE 10
+  {
+    nombre: "Internado Profesional",
+    semestre: 10,
+    prereq: [
+      "Toxicología",
+      "Farmacia Clínica y Atención Farmacéutica II",
+      "Biofarmacia",
+      "Practica II: Farmacia Comunitaria",
+      "Hito Evaluativo Integrativo Interprofesional",
+      "Farmacia Asistencial",
+      "Gestión y Marketing Farmacéutico",
+      "Farmacovigilancia y Tecnovigilancia",
+      "Electivo III: Formación Integral",
+      "Electivo I",
+      "Electivo II",
+      "Electivo III"
+    ]
+  }
 ];
 
 const mallaDiv = document.getElementById("malla");
